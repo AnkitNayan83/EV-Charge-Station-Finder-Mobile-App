@@ -38,7 +38,7 @@ const LoginScreen = () => {
         >
             <View style={styles.logo}>
                 <Image style={styles.logoImg} source={require("../../../assets/images/logo.png")} />
-                <Text style={styles.logoText}>EV Finder </Text>
+                <Text style={styles.logoText}>EV Charge Finder </Text>
             </View>
             <Image source={require("../../../assets/images/bg.png")} style={styles.bgImg} />
 

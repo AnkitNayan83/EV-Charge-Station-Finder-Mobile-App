@@ -26,8 +26,12 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-font"
-    ]
+    "plugins": [ 
+      "expo-font",
+      "expo-location"
+    ],
+    "permissions": {
+      "location": "Allow EV Charging finder to use your location."
+    }
   }
 }
